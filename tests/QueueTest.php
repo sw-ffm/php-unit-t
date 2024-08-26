@@ -65,5 +65,6 @@ class QueueTest extends TestCase
         $this->expectExceptionMessage("Queue is full");        
         
         $this->queue->push("wafer thin mint");           
-    }    
+    }
+
 }
